@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+release/
+coverage/
+.DS_Store
+*.log
+
+# secrets / local env
+.env*
+
+# Rust / Tauri build output
+src-tauri/target/
+src-tauri/gen/

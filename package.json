@@ -1,0 +1,35 @@
+{
+  "name": "ghi-chu-chuan",
+  "productName": "Ghi Chú Chuẩn",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ứng dụng desktop Lịch & Ghi chú thông minh (Tauri) — có widget desktop, OCR công văn.",
+  "author": "AUTOWORK",
+  "scripts": {
+    "dev:vite": "vite",
+    "build:vite": "vite build",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "tauri:icon": "tauri icon ./app-icon.png",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@tauri-apps/cli": "^2",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}
