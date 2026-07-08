@@ -2,7 +2,7 @@
   "name": "ghi-chu-chuan",
   "productName": "Ghi Chú Chuẩn",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Ứng dụng desktop Lịch & Ghi chú thông minh (Tauri) — có widget desktop, OCR công văn.",
   "author": "AUTOWORK",
